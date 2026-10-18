@@ -1,0 +1,7 @@
+Game.LoadMod({
+  name: "BillionClicks",
+  version: "2.058",
+  onTick: function() {
+    Game.cookies += 1e9;
+  }
+});
